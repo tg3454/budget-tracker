@@ -9,7 +9,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Budget Tracker",
-  description: "CodeWithKliton",
+  description: "Made by Tanish Garg",
+  icons: {
+    icon: '/logo.png'
+  }
 };
 
 export default function RootLayout({
